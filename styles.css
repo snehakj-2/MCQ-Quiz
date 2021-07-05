@@ -1,0 +1,98 @@
+
+/* Navigation Bar */
+.mynav{
+    padding: 1.5%;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    padding-left: 25px;
+}
+.list-item{
+    
+    font-size: 1.2rem;
+    padding: 0 25px;
+}
+.nav-anchor{
+    
+    color: #dfd6d6 ;
+}
+.nav-anchor:hover{
+    text-decoration: none;
+    color: crimson;
+}
+.logo{
+    cursor:default;
+}
+
+
+/* Home Page */
+.home-image{
+    width: 102%;
+    height: 130%;
+}
+.leftbox{
+    padding: 5% 4%;
+}
+.heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 4%;
+}
+
+
+
+/* Media Query */
+@media(max-width: 990px){
+    #home{
+        text-align: center;
+    }
+}
+
+
+/* Quiz Page  */
+.qsection{
+    padding: 3%;
+    font-weight: bold;
+}
+.qblock{
+    width: 99%;
+    border: 3px solid black;
+    margin: auto;
+}
+.qhead{
+    font-size: 20px;
+    background-color: #dc3545;
+    border-bottom: 3px solid black;
+    color: #f2e9e9;
+}
+.qbody{
+    font-size: 18px;
+}
+.qoption{
+    margin: 1% 1% 1% 0;
+}
+.submit{
+    text-align: right;
+    padding-bottom: 1%;
+    margin-right: 3%;
+}
+
+
+/* Results Page  */
+#score{
+    text-align: center;
+    color: #dc3545;
+    padding: 2%;
+}
+.score-head{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+.score-img{
+    text-align: center;
+}
+img{
+    width: 77%;
+}

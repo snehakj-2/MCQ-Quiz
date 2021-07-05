@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELITE QUIZ</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <section id="navigation-bar">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mynav">
+            <a href="" class="navbar-brand logo">ELITE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item list-item"><a href="#ques1" class="nav-anchor">Q1</a> </li>
+                    <li class="nav-item list-item"> <a href="#ques2" class="nav-anchor">Q2</a></li>
+                    <li class="nav-item list-item"> <a href="#ques3" class="nav-anchor">Q3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+
+
+    <!-- Questions -->
+    <section id="ques1" class="qsection">
+    <div class="card qblock">
+        <div class="card-header qhead">
+            <strong>Q1)</strong>Find the wrong number in the series
+            <p>25,36,49,81,121,169,225</p>
+        </div>
+        <div class="card-body qbody">
+            <input type="radio" name="q1" class="qoption">22<br>
+            <input type="radio" name="q1" class="qoption" id="ans1">40<br>
+            <input type="radio" name="q1" class="qoption">38<br>
+            <input type="radio" name="q1" class="qoption">30<br>
+        </div>
+    </div>
+    </section>
+
+    <section id="ques2" class="qsection">
+    <div class="card qblock">
+        <div class="card-header qhead">
+            <strong>Q2)</strong>India's National Heritage Animal
+        </div>
+        <div class="card-body qbody">
+            <input type="radio" name="q2" class="qoption">Bengal Tiger<br>
+            <input type="radio" name="q2" class="qoption">Indian Rhinoceros<br>
+            <input type="radio" name="q2" class="qoption" id="ans2">Indian Elephant<br>
+            <input type="radio" name="q2" class="qoption">Asiatic Lion<br>
+        </div>
+    </div>
+    </section>
+
+    <section id="ques3" class="qsection">
+    <div class="card qblock">
+        <div class="card-header qhead">
+            <strong>Q3)</strong>Synonym of the word Cease
+        </div>
+        <div class="card-body qbody">
+            <input type="radio" name="q3" class="qoption">Begin<br>
+            <input type="radio" name="q3" class="qoption">Create<br>
+            <input type="radio" name="q3" class="qoption">Dull<br>
+            <input type="radio" name="q3" class="qoption" id="ans3">Stop<br>
+        </div>
+    </div>
+    </section>
+
+
+<section class="submit">
+    <button type="button" class="btn btn-outline-danger btn-lg submitbtn" onclick="marks(); window.location.href='score.html'">SUBMIT</button>
+</section>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="quiz.js"></script>
+</body>
+
+</html>
